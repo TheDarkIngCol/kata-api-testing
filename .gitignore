@@ -1,8 +1,4 @@
 # Default ignored files
-/shelf/
-/.idea/workspace.xml
-# Default ignored files
-/workspace.xml
 .idea
 .vscode/
 .idea/
@@ -45,4 +41,3 @@ __pycache__
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
-.history/*
