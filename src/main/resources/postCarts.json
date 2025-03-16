@@ -1,0 +1,14 @@
+{
+  "id": 1,
+  "userId": 3,
+  "products": [
+    {
+      "id": 0,
+      "title": "POST",
+      "price": 0.1,
+      "description": "Esto es una prueba de un metodo POST",
+      "category": "KATA 2.0",
+      "image": "http://example.com"
+    }
+  ]
+}

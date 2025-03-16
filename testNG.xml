@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Kata Suite" parallel="methods" thread-count="3">
+
+    <test name="Validar el envío de caracteres especiales en los parametros">
+        <classes>
+            <class name="test.getCarts.GetCarts">
+                <methods>
+                    <include name="getCartsSuccess"/>
+                    <include name="getCarsFailed"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Creación de un carrito exitosamente">
+        <classes>
+            <class name="test.postCarts.PostCarts">
+                <methods>
+                    <include name="postCarts"/>
+                    <include name="postCartsFailed"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Actualización de un carrito exitosamente">
+        <classes>
+            <class name="test.putCarts.PutCarts"/>
+        </classes>
+    </test>
+
+    <test name="Eliminación de un carrito exitosamente">
+        <classes>
+            <class name="test.deleteCarts.DeleteCarts"/>
+        </classes>
+    </test>
+</suite>
