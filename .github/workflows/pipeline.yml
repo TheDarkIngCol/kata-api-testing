@@ -1,4 +1,4 @@
-name: API Tests Pipeline
+name: API Tests Pipeline Kata
 
 on:
   push:
