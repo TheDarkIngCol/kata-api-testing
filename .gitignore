@@ -1,3 +1,48 @@
 # Default ignored files
 /shelf/
 /.idea/workspace.xml
+# Default ignored files
+/workspace.xml
+.idea
+.vscode/
+.idea/
+#Dependencies
+/node_modules
+
+#Compile output
+.scannerwork
+screenshots/*
+*.log
+out/
+reports/*
+.mvn/*
+target/*
+!target/site/serenity/results.csv
+*.zip
+logs/*
+
+#Enviroment variables
+.env
+.npmrc
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+__pycache__
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
