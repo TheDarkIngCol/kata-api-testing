@@ -1,13 +1,9 @@
 package test.putCarts;
 
-import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
-import com.aventstack.extentreports.reporter.ExtentSparkReporter;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
-import utilities.BaseTest;
-import utilities.GeneralTask;
+import resources.BaseTest;
+import resources.GeneralTask;
 
 import java.util.HashMap;
 import java.util.Map;

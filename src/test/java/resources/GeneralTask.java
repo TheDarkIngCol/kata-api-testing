@@ -1,4 +1,4 @@
-package utilities;
+package resources;
 
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;

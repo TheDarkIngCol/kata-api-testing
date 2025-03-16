@@ -1,10 +1,9 @@
 package test.postCarts;
 
 import com.aventstack.extentreports.ExtentTest;
-import org.testng.annotations.AfterSuite;
 import org.testng.annotations.Test;
-import utilities.BaseTest;
-import utilities.GeneralTask;
+import resources.BaseTest;
+import resources.GeneralTask;
 
 import java.util.HashMap;
 import java.util.Map;

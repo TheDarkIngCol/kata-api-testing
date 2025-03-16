@@ -24,7 +24,7 @@ jobs:
         run: mvn install
 
       - name: Ejecutar pruebas con TestNG
-        run: mvn test -DsuiteXmlFile=testNG.xml
+        run: mvn test -DsuiteXmlFile=src/test/java/resources/testng.xml
 
       - name: Generar reporte de pruebas
         run: mvn surefire-report:report

@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-16T08:07:33 COT" name="Surefire suite" finished-at="2025-03-16T08:07:33 COT" duration-ms="3">
+  <suite started-at="2025-03-16T08:37:36 COT" name="Surefire suite" finished-at="2025-03-16T08:37:36 COT" duration-ms="3">
     <groups>
     </groups>
-    <test started-at="2025-03-16T08:07:33 COT" name="Surefire test" finished-at="2025-03-16T08:07:33 COT" duration-ms="3">
+    <test started-at="2025-03-16T08:37:36 COT" name="Surefire test" finished-at="2025-03-16T08:37:36 COT" duration-ms="3">
       <class name="utilities.BaseTest">
-        <test-method is-config="true" signature="setupExtent()[pri:0, instance:utilities.BaseTest@8909f18]" started-at="2025-03-16T08:07:33 COT" name="setupExtent" finished-at="2025-03-16T08:07:33 COT" duration-ms="91" status="PASS">
+        <test-method is-config="true" signature="setupExtent()[pri:0, instance:utilities.BaseTest@8909f18]" started-at="2025-03-16T08:37:36 COT" name="setupExtent" finished-at="2025-03-16T08:37:36 COT" duration-ms="89" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupExtent -->
-        <test-method is-config="true" signature="tearDownExtent()[pri:0, instance:utilities.BaseTest@8909f18]" started-at="2025-03-16T08:07:34 COT" name="tearDownExtent" finished-at="2025-03-16T08:07:34 COT" duration-ms="110" status="PASS">
+        <test-method is-config="true" signature="tearDownExtent()[pri:0, instance:utilities.BaseTest@8909f18]" started-at="2025-03-16T08:37:36 COT" name="tearDownExtent" finished-at="2025-03-16T08:37:36 COT" duration-ms="101" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownExtent -->
