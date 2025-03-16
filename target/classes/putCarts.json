@@ -1,0 +1,14 @@
+{
+  "id": 0,
+  "userId": 0,
+  "products": [
+    {
+      "id": 0,
+      "title": "Prueba de PUT",
+      "price": 0.1,
+      "description": "string",
+      "category": "string",
+      "image": "http://example.com"
+    }
+  ]
+}
