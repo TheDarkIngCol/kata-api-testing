@@ -1,0 +1,36 @@
+name: API Tests Pipeline
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Clonar repositorio
+        uses: actions/checkout@v3
+
+      - name: Configurar Java
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Instalar dependencias
+        run: mvn install
+
+      - name: Ejecutar pruebas con TestNG
+        run: mvn test -DsuiteXmlFile=testng.xml
+
+      - name: Generar reporte de pruebas
+        run: mvn surefire-report:report
+
+      - name: Guardar reportes como artefactos
+        uses: actions/upload-artifact@v3
+        with:
+          name: test-reports
+          path: target/surefire-reports
